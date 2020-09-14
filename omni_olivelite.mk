@@ -21,6 +21,9 @@ PRODUCT_RELEASE_NAME := olivelite
 $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
+#Treble Support
+$(call inherit-product, $(SRC_TARGET_DIR)/product/treble_common_32.mk
+
 # Device identifier. This must come after all inclusions.
 
 #PRODUCT_COPY_FILES += \
@@ -34,6 +37,11 @@ PRODUCT_NAME	:= omni_olivelite
 PRODUCT_BRAND	:= Xiaomi
 PRODUCT_MODEL	:= Redmi 8A
 PRODUCT_MANUFACTURER := Xiaomi
+
+#Add treble compatibility
+PRODUCT_FULL_TREBLE_OVERRIDE := true 
+
+PRODUCT_PROPERTY_OVERRIDES := ro.treble.enabled=true
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.product.device \
