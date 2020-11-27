@@ -126,9 +126,11 @@ SHRP_DEVICE_CODE := OliveLite
 # Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
 SHRP_REC_TYPE := Treble
 # Recovery Type (It can be A/B or A_only) [Only for About Section] *
-SHRP_DEVICE_TYPE := A_Only
+SHRP_DEVICE_TYPE := A/B
 # Notch
 SHRP_NOTCH := true
+# OFFICIAL
+SHRP_OFFICIAL := true
 # EDL
 SHRP_EDL_MODE := 1
 SHRP_EXTERNAL := /storage
