@@ -122,7 +122,7 @@ SHRP_PATH := device/xiaomi/olivelite
 # Maintainer name *
 SHRP_MAINTAINER := TechyMinati
 # Device codename *
-SHRP_DEVICE_CODE := OliveLite
+SHRP_DEVICE_CODE := olivelite
 # Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
 SHRP_REC_TYPE := Treble
 # Recovery Type (It can be A/B or A_only) [Only for About Section] *
